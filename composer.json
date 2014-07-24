@@ -1,0 +1,21 @@
+{
+    "name": "babzich/logentries-bundle",
+    "type": "symfony-bundle",
+    "description": "A simple wrapper for the Logentries library",
+    "keywords": ["logentries", "log", "symfony"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vincent Bach",
+            "email": "contact@vincent-bach.fr"
+        }
+    ],
+    "require": {
+        "logentries/logentries-monolog-handler": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bab\\LogentriesBundle\\": ""
+        }
+    }
+}

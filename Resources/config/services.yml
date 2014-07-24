@@ -1,0 +1,4 @@
+services:
+    bab_log_entries.handler:
+        class: Logentries\Handler\LogentriesHandler
+        arguments: [%bab_log_entries.token%]
