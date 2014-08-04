@@ -31,4 +31,11 @@ public function registerBundles()
 }
 ```
 
+## Configuration
+
+```yaml
+bab_logentries:
+    token: YOUR_LOGENTRIES_TOKEN
+```
+
 [1]: https://github.com/logentries/logentries-monolog-handler
